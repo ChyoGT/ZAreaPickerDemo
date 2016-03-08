@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3Gg-NO-y7i">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bh-PO-Urn">
+                                <rect key="frame" x="16" y="100" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aoe-Bw-p3y"/>
+                                </constraints>
+                                <state key="normal" title="点击选择省份&amp;城市"/>
+                                <connections>
+                                    <action selector="selectToCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rwf-x2-fm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtZ-lo-S1x">
+                                <rect key="frame" x="16" y="200" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="oCf-Yh-XWH"/>
+                                </constraints>
+                                <state key="normal" title="点击选择省份&amp;城市&amp;地区"/>
+                                <connections>
+                                    <action selector="selectToArea:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a2Z-F4-VrL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n82-cG-n3d">
+                                <rect key="frame" x="16" y="300" width="343" height="367"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rtZ-lo-S1x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7ez-p6-tve"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rtZ-lo-S1x" secondAttribute="trailing" id="ExV-sC-L9R"/>
+                            <constraint firstItem="rtZ-lo-S1x" firstAttribute="top" secondItem="4bh-PO-Urn" secondAttribute="bottom" constant="50" id="MyX-Bs-JVW"/>
+                            <constraint firstItem="4bh-PO-Urn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="TTC-d4-Mux"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4bh-PO-Urn" secondAttribute="trailing" id="WGp-0I-iuE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="n82-cG-n3d" secondAttribute="bottom" id="aXq-lY-4FO"/>
+                            <constraint firstItem="n82-cG-n3d" firstAttribute="top" secondItem="rtZ-lo-S1x" secondAttribute="bottom" constant="50" id="cqb-rN-tbN"/>
+                            <constraint firstItem="n82-cG-n3d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dpb-6X-3t1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n82-cG-n3d" secondAttribute="trailing" id="heD-N5-ckf"/>
+                            <constraint firstItem="4bh-PO-Urn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="upp-xo-zGk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="y4c-6Q-6vk"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="showLabel" destination="n82-cG-n3d" id="KNf-Cy-voX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187.5" y="415.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PKa-Uf-np9">
+            <objects>
+                <navigationController id="3Gg-NO-y7i" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ukt-bh-jZj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FR8-qx-sPQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmX-tk-L9x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-264.5" y="415.5"/>
+        </scene>
+    </scenes>
+</document>

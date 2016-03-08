@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B266941A1C8E628D005EB56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B26694191C8E628D005EB56B /* main.m */; };
+		B266941D1C8E628D005EB56B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B266941C1C8E628D005EB56B /* AppDelegate.m */; };
+		B26694201C8E628D005EB56B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B266941F1C8E628D005EB56B /* ViewController.m */; };
+		B26694251C8E628D005EB56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26694241C8E628D005EB56B /* Assets.xcassets */; };
+		B26694281C8E628D005EB56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26694261C8E628D005EB56B /* LaunchScreen.storyboard */; };
+		B26694371C8E6331005EB56B /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = B26694361C8E6331005EB56B /* ChineseToPinyin.m */; };
+		B266943C1C8E633C005EB56B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B266943A1C8E633C005EB56B /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B266943D1C8E633C005EB56B /* province.txt in Resources */ = {isa = PBXBuildFile; fileRef = B266943B1C8E633C005EB56B /* province.txt */; };
+		B26694401C8E638E005EB56B /* ZAreaPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B266943F1C8E638E005EB56B /* ZAreaPickerController.m */; };
+		B2F915B11C8E645A00616DDF /* ZAreaPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F915B01C8E645A00616DDF /* ZAreaPickerController.xib */; };
+		B2F915B31C8E659900616DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F915B21C8E659900616DDF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B26694151C8E628D005EB56B /* ZAreaPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAreaPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26694191C8E628D005EB56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B266941B1C8E628D005EB56B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B266941C1C8E628D005EB56B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B266941E1C8E628D005EB56B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B266941F1C8E628D005EB56B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B26694241C8E628D005EB56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26694271C8E628D005EB56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26694291C8E628D005EB56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26694351C8E6331005EB56B /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		B26694361C8E6331005EB56B /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		B26694391C8E633C005EB56B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		B266943A1C8E633C005EB56B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		B266943B1C8E633C005EB56B /* province.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = province.txt; sourceTree = "<group>"; };
+		B266943E1C8E638E005EB56B /* ZAreaPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAreaPickerController.h; sourceTree = "<group>"; };
+		B266943F1C8E638E005EB56B /* ZAreaPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAreaPickerController.m; sourceTree = "<group>"; };
+		B2F915B01C8E645A00616DDF /* ZAreaPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZAreaPickerController.xib; sourceTree = "<group>"; };
+		B2F915B21C8E659900616DDF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26694121C8E628D005EB56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B266940C1C8E628D005EB56B = {
+			isa = PBXGroup;
+			children = (
+				B26694301C8E62A8005EB56B /* ZAreaPicker */,
+				B26694171C8E628D005EB56B /* ZAreaPickerDemo */,
+				B26694161C8E628D005EB56B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26694161C8E628D005EB56B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26694151C8E628D005EB56B /* ZAreaPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26694171C8E628D005EB56B /* ZAreaPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B266941B1C8E628D005EB56B /* AppDelegate.h */,
+				B266941C1C8E628D005EB56B /* AppDelegate.m */,
+				B266941E1C8E628D005EB56B /* ViewController.h */,
+				B266941F1C8E628D005EB56B /* ViewController.m */,
+				B2F915B21C8E659900616DDF /* Main.storyboard */,
+				B26694241C8E628D005EB56B /* Assets.xcassets */,
+				B26694261C8E628D005EB56B /* LaunchScreen.storyboard */,
+				B26694291C8E628D005EB56B /* Info.plist */,
+				B26694181C8E628D005EB56B /* Supporting Files */,
+			);
+			path = ZAreaPickerDemo;
+			sourceTree = "<group>";
+		};
+		B26694181C8E628D005EB56B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26694191C8E628D005EB56B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B26694301C8E62A8005EB56B /* ZAreaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B26694381C8E633C005EB56B /* JSONKit */,
+				B26694341C8E6331005EB56B /* ChineseToPinyin */,
+				B266943E1C8E638E005EB56B /* ZAreaPickerController.h */,
+				B266943F1C8E638E005EB56B /* ZAreaPickerController.m */,
+				B2F915B01C8E645A00616DDF /* ZAreaPickerController.xib */,
+			);
+			path = ZAreaPicker;
+			sourceTree = "<group>";
+		};
+		B26694341C8E6331005EB56B /* ChineseToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				B26694351C8E6331005EB56B /* ChineseToPinyin.h */,
+				B26694361C8E6331005EB56B /* ChineseToPinyin.m */,
+			);
+			path = ChineseToPinyin;
+			sourceTree = "<group>";
+		};
+		B26694381C8E633C005EB56B /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				B26694391C8E633C005EB56B /* JSONKit.h */,
+				B266943A1C8E633C005EB56B /* JSONKit.m */,
+				B266943B1C8E633C005EB56B /* province.txt */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26694141C8E628D005EB56B /* ZAreaPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B266942C1C8E628D005EB56B /* Build configuration list for PBXNativeTarget "ZAreaPickerDemo" */;
+			buildPhases = (
+				B26694111C8E628D005EB56B /* Sources */,
+				B26694121C8E628D005EB56B /* Frameworks */,
+				B26694131C8E628D005EB56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZAreaPickerDemo;
+			productName = ZAreaPickerDemo;
+			productReference = B26694151C8E628D005EB56B /* ZAreaPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B266940D1C8E628D005EB56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhang.yD;
+				TargetAttributes = {
+					B26694141C8E628D005EB56B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B26694101C8E628D005EB56B /* Build configuration list for PBXProject "ZAreaPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B266940C1C8E628D005EB56B;
+			productRefGroup = B26694161C8E628D005EB56B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26694141C8E628D005EB56B /* ZAreaPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26694131C8E628D005EB56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266943D1C8E633C005EB56B /* province.txt in Resources */,
+				B2F915B31C8E659900616DDF /* Main.storyboard in Resources */,
+				B2F915B11C8E645A00616DDF /* ZAreaPickerController.xib in Resources */,
+				B26694281C8E628D005EB56B /* LaunchScreen.storyboard in Resources */,
+				B26694251C8E628D005EB56B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26694111C8E628D005EB56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26694201C8E628D005EB56B /* ViewController.m in Sources */,
+				B26694371C8E6331005EB56B /* ChineseToPinyin.m in Sources */,
+				B266943C1C8E633C005EB56B /* JSONKit.m in Sources */,
+				B26694401C8E638E005EB56B /* ZAreaPickerController.m in Sources */,
+				B266941D1C8E628D005EB56B /* AppDelegate.m in Sources */,
+				B266941A1C8E628D005EB56B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B26694261C8E628D005EB56B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26694271C8E628D005EB56B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B266942A1C8E628D005EB56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B266942B1C8E628D005EB56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B266942D1C8E628D005EB56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZAreaPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.ZAreaPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B266942E1C8E628D005EB56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZAreaPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Z.ZAreaPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26694101C8E628D005EB56B /* Build configuration list for PBXProject "ZAreaPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B266942A1C8E628D005EB56B /* Debug */,
+				B266942B1C8E628D005EB56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B266942C1C8E628D005EB56B /* Build configuration list for PBXNativeTarget "ZAreaPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B266942D1C8E628D005EB56B /* Debug */,
+				B266942E1C8E628D005EB56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B266940D1C8E628D005EB56B /* Project object */;
+}
